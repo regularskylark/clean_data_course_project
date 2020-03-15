@@ -1,6 +1,6 @@
 # Code book for clean_data_course_project
 
-This code book relates to the `tidy_data.txt` and `tidy_data_average` files of this repository. The `tidy_data.txt` file is not added to this repo due to it's size, but it can be reproduced by running `run_analysis.R`.
+This code book relates to the `tidy_data.txt` and `tidy_data_average.txt` files of this repository. The `tidy_data.txt` file is not added to this repo due to its' size, but it can be reproduced by running `run_analysis.R`.
 
 See the `README.md` file for more information on this data set.
 
