@@ -50,10 +50,7 @@ activity_label_list <- activity_labels[,2]
 colnames(merged_set_extract) <- c("subject", "activity", features_extract_values)
 merged_set_extract[,activity_col_index] = factor(merged_set_extract[,activity_col_index], labels=activity_label_list)
 
-#colnames(activities) <- c("activity_id", "activity_name")
-
 # 4. appropriate data set labels with descriptive variable names.
-
 merged_set_extract_cols <- colnames(merged_set_extract)
 
 # filter special characters
@@ -72,7 +69,6 @@ merged_set_extract_cols <- gsub("Freq", "Frequency", merged_set_extract_cols, ig
 merged_set_extract_cols <- to_snake_case(merged_set_extract_cols, sep_out = "_")
 
 colnames(merged_set_extract) <- merged_set_extract_cols
-
 
 write.table(merged_set_extract, "tidy_data.txt", row.names=FALSE, quote=FALSE)
 

@@ -4,7 +4,7 @@ This code book relates to the `tidy_data.txt` and `tidy_data_average.txt` files 
 
 See the `README.md` file for more information on this data set.
 
-The source data is located at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Source data is stored in the /data folder once downloaded by `run_analysis.R`.
+The source data is located at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Source data is stored in the `/data` folder once downloaded by `run_analysis.R`.
 
 ## Data
 
