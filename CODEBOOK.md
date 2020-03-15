@@ -8,12 +8,12 @@ The source data is located at [https://d396qusza40orc.cloudfront.net/getdata%2Fp
 
 ## Data
 
-The `tidy_data.txt` and `tidy_data_average` files are text files, with space-separated values.
+The `tidy_data.txt` and `tidy_data_average.txt` files are text files, with space-separated values.
 
 ## Variables
 
-Each `tidy_data.txt` row contains signal measurements for a specified subject and activity.
-Each `tidy_data_average` row contains 79 averaged signal measurements for a specified subject and activity.
+Each `tidy_data.txt` row contains individual signal measurements for a specified subject and activity.
+Each `tidy_data_average.txt` row contains averaged signal measurements for a specified subject and activity.
 
 For more information relating to the measurement units (these are already human readable in the variable names), and any other relevant information, consult the original dataset README files. 
 
